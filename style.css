@@ -1,0 +1,27 @@
+h3
+{
+font-size: 25px;
+}
+
+canvas {
+animation-name: example;
+animation-duration: 4s; 
+animation-iteration-count: infinite;
+}
+
+@keyframes example {
+from {box-shadow: 1px 1px 38px blueviolet;} 
+to{box-shadow: 1px 1px 38px rgb(0, 225, 255);}
+}
+
+button{
+border: 25px;
+height: 40px;
+background-color: aqua;
+}
+
+.rainbow-1:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+ }
+ 
